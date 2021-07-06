@@ -1,0 +1,68 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background: url("../img/background.png") center no-repeat;
+ }
+ 
+ .input-url-div {
+   margin: 30px auto;  
+   width: 1000px;
+   padding: 30px;
+   border-radius: 30px;
+   background: rgba(0,0,0,0.8);
+   border: rgba(134, 134, 134, 0.8) 1px solid;
+}
+ 
+ .form-row {
+    padding: 5px;
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: white;
+ }
+ 
+ .form-row input {
+    display: block;
+    width: 1000px;
+    line-height: 40px;
+    font-size: 20px;
+    background: none;
+    border-width: 0;
+    border-bottom: 3px solid #3b8efb;
+    color: white;
+ }
+  
+ .form-row input:focus {
+    outline: 0;
+ }
+ 
+ .input-url-form input[type="submit"] {
+    width: 1000px;
+    line-height: 40px;
+    background: #3b8efb;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    margin: 0px 5px 10px;
+ }
+ 
+ .result-table {
+    margin: 10px auto;
+    max-width: 1600px;
+    padding: 20px;
+    border: rgba(134, 134, 134, 0.8) 1px solid;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.8);
+    border-spacing: 10px;
+    border-collapse: separate;
+ }
+
+ .result-table td, tr {
+    color: white;
+    font-size: 20px;
+ }
+
+ .result-table td{
+   padding: 0 20px;
+   width: 210px;
+}
